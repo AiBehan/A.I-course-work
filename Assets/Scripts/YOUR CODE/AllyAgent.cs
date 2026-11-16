@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class AllyAgent : SteeringAgent
 {
+	private PathFinding Movement;
 	private Attack.AttackType attackType = Attack.AttackType.AllyGun;
 
 	protected override void InitialiseFromAwake()
